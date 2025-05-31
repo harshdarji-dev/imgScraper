@@ -4,6 +4,12 @@ A simple API service that scrapes DuckDuckGo for images based on search queries.
 
 ## API Endpoints
 
+examples-
+http://localhost:3000/search?query=valorant&limit=5
+
+for images
+http://localhost:3000/images?query=hello&limit=5
+
 ### GET /api/images
 Search for images with a query.
 
